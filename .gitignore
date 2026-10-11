@@ -1,14 +1,20 @@
-# Virtual Environment
-venv/
-.venv/
+# Node.js & Playwright
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+.env
 
-# Robot Framework Output
+# Robot Framework Output (Legacy)
 results/
 log.html
 report.html
 output.xml
 
-# Python cache
+# Virtual Environment & Python cache
+venv/
+.venv/
 __pycache__/
 *.pyc
 
