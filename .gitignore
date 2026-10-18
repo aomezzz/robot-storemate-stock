@@ -1,0 +1,19 @@
+# Robot Framework Output
+results/
+log.html
+report.html
+output.xml
+selenium-screenshot-*.png
+
+# Environment Variables
+.env
+
+# Virtual Environment & Python cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# OS files
+Thumbs.db
+.DS_Store

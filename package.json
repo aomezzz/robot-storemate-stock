@@ -1,0 +1,26 @@
+{
+  "name": "1-robot-storemate",
+  "version": "1.0.0",
+  "description": "StoreMate Automated Testing Suite using Robot Framework and SeleniumLibrary",
+  "scripts": {
+    "test": "robot -d results --variable HEADLESS:True tests/login_tests.robot tests/stock_tests.robot tests/inventory_management_tests.robot",
+    "test:login": "robot -d results --variable HEADLESS:True tests/login_tests.robot",
+    "test:stock": "robot -d results --variable HEADLESS:True tests/stock_tests.robot",
+    "test:stocks": "robot -d results --variable HEADLESS:True tests/stock_tests.robot",
+    "test:inv": "robot -d results --variable HEADLESS:True tests/inventory_management_tests.robot",
+    "test:headed": "robot -d results --variable HEADLESS:False tests/login_tests.robot tests/stock_tests.robot tests/inventory_management_tests.robot",
+    "test:report": "start results/report.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aomezzz/robot-storemate-stock.git"
+  },
+  "keywords": [
+    "robotframework",
+    "selenium",
+    "testing",
+    "storemate"
+  ],
+  "author": "",
+  "license": "ISC"
+}
